@@ -1,3 +1,5 @@
 *.pyc
 build/
 nose.egg.info
+dist
+pygnutella.egg-info
