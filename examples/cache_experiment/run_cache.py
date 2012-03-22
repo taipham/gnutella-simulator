@@ -15,7 +15,9 @@ def usage():
 
 def __create_node(servent_cls, bootstrap_address, files = []):
     logging.basicConfig(level=logging.DEBUG, format='%(name)s: %(message)s')
-    servent_cls(bootstrap_address = bootstrap_address, files = files)
+    servent = servent_cls(bootstrap_address = bootstrap_address)
+    servent.set_files(files = files)
+    
     try:
         schedule_loop()
     except (KeyboardInterrupt, SystemExit):
@@ -59,7 +61,7 @@ def main(args):
             if node in node_have_file:
                 p = Process(target = __create_node, args=(ExperimentServent, address, files))
             else:
-                p = Process(target = __create_node, args=(ExperimentServent, address, []))
+                p = Process(target = __create_node, args=(ExperimentServent, address))
             children.append(p)
             p.start()
             # sleep 1 seconds before start another node
