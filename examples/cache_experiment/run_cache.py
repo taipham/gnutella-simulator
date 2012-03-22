@@ -16,8 +16,8 @@ class ExperimentServent(CacheServent):
         self.num_rx_message = 0
         # expect query message_id
         self.query_message_id = None
-        # send the query to the network between 2 and 7 seconds
-        CallLater(5./float(randint(1,10))+2., self.send_query_to_network)
+        # send the query to the network between 1 and 6 seconds later
+        CallLater(5./float(randint(1,10))+1., self.send_query_to_network)
         
     def on_receive(self, connection_handler, message):
         # log to show the network is still working
@@ -84,7 +84,7 @@ def __create_node(servent_cls, bootstrap_address, files = []):
     servent.set_files(files = files)
     
     try:
-        schedule_loop(timeout=1, count=60)
+        schedule_loop(timeout=1, count=80)
     except (KeyboardInterrupt, SystemExit):
         pass
     finally:
@@ -102,7 +102,7 @@ def main(args):
     num_node_have_file = max(int(args[3]),1)
     
     if num_node < num_node_have_file:
-        print "number of nodes must be less than number of nodes having the file"
+        print "number of nodes must be greater than number of nodes having the file"
         return
     
     # random generate which node have the file initially

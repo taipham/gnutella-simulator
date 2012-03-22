@@ -16,8 +16,8 @@ class ExperimentServent(QueryServent):
         self.num_rx_message = 0
         # expect query message_id
         self.query_message_id = None
-        # send the query to the network between 2 and 7 seconds
-        CallLater(5./float(randint(1,10))+2., self.send_query_to_network)
+        # send the query to the network between 1 and 5 seconds later
+        CallLater(5./float(randint(1,10)) + 1., self.send_query_to_network)
         
     def on_receive(self, connection_handler, message):
         # log to show the network is still working
@@ -81,7 +81,7 @@ def __create_node(servent_cls, bootstrap_address, files = []):
     servent.set_files(files = files)
     
     try:
-        schedule_loop(timeout=1, count=60)
+        schedule_loop(timeout=1, count=80)
     except (KeyboardInterrupt, SystemExit):
         pass
     finally:
