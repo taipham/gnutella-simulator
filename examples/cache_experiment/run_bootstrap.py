@@ -7,8 +7,11 @@ def main(argv, argc):
     logging.basicConfig(level=logging.DEBUG, format='%(name)s: %(message)s')
     print "Please use Ctrl+C to terminate"
     p = 0.5
-    if argc >= 0:
+    if argc > 0:
         p = float(argv[0])
+    else:
+        print "Please provide a argument for possibility [0 - 1]."
+        return
     RandomBootstrap(p)
     
     try:
