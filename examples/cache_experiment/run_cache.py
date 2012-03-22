@@ -7,7 +7,37 @@ from multiprocessing import Process
 from pygnutella.scheduler import loop as schedule_loop, close_all
 
 class ExperimentServent(CacheServent):
-    pass
+    def __init__(self, bootstrap_address = None):
+        CacheServent.__init__(self, bootstrap_address)
+        # number of transmitted message include flood[_ex], forward, and send_message 
+        self.num_tx_message = 0
+        # number of received message
+        self.num_rx_message = 0
+        
+    def on_receive(self, connection_handler, message):
+        # increase received message by one
+        self.num_rx_message += 1
+        CacheServent.on_receive(self, connection_handler, message)
+        
+    def send_message(self, message, handler):
+        self.num_tx_message += 1
+        CacheServent.send_message(self, message, handler)        
+        
+    def forward(self, message):
+        ret = CacheServent.forward(self, message)
+        if ret:
+            self.num_tx_message += 1
+        return ret
+    
+    def flood(self, connection_handler, message):
+        ret = CacheServent.flood(self, connection_handler, message) 
+        self.num_tx_message += ret
+        return ret
+
+    def flood_ex(self, message):
+        ret = CacheServent.flood_ex(self, message)
+        self.num_tx_message += ret
+        return ret
 
 
 def usage():
