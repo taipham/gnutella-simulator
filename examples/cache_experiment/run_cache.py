@@ -2,7 +2,7 @@ from pygnutella.servent import FileInfo
 from pygnutella.demo.cache_servent import CacheServent
 from pygnutella.message import create_message
 from pygnutella.messagebody import GnutellaBodyId
-from numpy.random import randint
+from random import uniform, sample
 import sys, logging
 from multiprocessing import Process
 from pygnutella.scheduler import loop as schedule_loop, close_all, CallLater
@@ -16,8 +16,8 @@ class ExperimentServent(CacheServent):
         self.num_rx_message = 0
         # expect query message_id
         self.query_message_id = None
-        # send the query to the network between 1 and 6 seconds later
-        CallLater(5./float(randint(1,10))+1., self.send_query_to_network)
+        # send the query to the network between 1 and 3 seconds later
+        CallLater(uniform(1,3), self.send_query_to_network)
         
     def on_receive(self, connection_handler, message):
         # log to show the network is still working
@@ -105,14 +105,8 @@ def main(args):
         print "number of nodes must be greater than number of nodes having the file"
         return
     
-    # random generate which node have the file initially
-    node_have_file = []
-    for _ in xrange(0, num_node_have_file):
-        while True:
-            node = randint(0, num_node)
-            if node not in node_have_file:
-                node_have_file.append(node)
-                break         
+    # sample which node have the file initially
+    node_have_file = sample(xrange(0, num_node), num_node_have_file)
     
     # preparing the file list and address
     files = [FileInfo(1,"ABC",1)]            

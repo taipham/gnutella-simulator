@@ -2,7 +2,7 @@ import asyncore
 import asynchat
 import socket
 import logging
-from numpy.random import binomial, randint
+from random import random
 
 class SimpleBootstrap(asyncore.dispatcher):
     """
@@ -261,7 +261,7 @@ class RandomBootstrap(SimpleBootstrap):
         ret = []
         # include as many random node as possible
         for x in xrange(0,len(self.nodes)):
-            if binomial(1, self._p) == 1:
+            if random() < self._p:
                 ret.append(self.nodes[x])
         # remove exclude
         if ret:
