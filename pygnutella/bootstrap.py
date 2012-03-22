@@ -25,7 +25,7 @@ class SimpleBootstrap(asyncore.dispatcher):
         self.addr = self.socket.getsockname()
         self.logger.info("address at %s %s" % (self.addr))        
         # listening for incoming connection
-        self.listen(5)
+        self.listen(100)
         return
     
     def handle_accept(self):

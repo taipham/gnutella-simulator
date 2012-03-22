@@ -96,7 +96,7 @@ class GnutellaServer(asyncore.dispatcher):
         self.reactor.port = self.reactor.address[1]        
         self.reactor.servent.log('bind to %s %s' % self.reactor.address)
         # listening for incoming connection
-        self.listen(5)
+        self.listen(100)
         return
     
     def handle_accept(self):
