@@ -68,7 +68,7 @@ class ExperimentServent(CacheServent):
             self.query_message_id = query_message.message_id
             # flood the message to everyone
             self.flood_ex(query_message)
-        else:
+        elif result == [] and not cache_result == []:
             # assume fake download
             self.add_single_file(FileInfo(1,"ABC",1))
 
