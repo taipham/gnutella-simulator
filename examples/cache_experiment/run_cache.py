@@ -1,5 +1,7 @@
 from pygnutella.servent import FileInfo
 from pygnutella.demo.cache_servent import CacheServent
+from pygnutella.message import create_message
+from pygnutella.messagebody import GnutellaBodyId
 from numpy.random import randint
 import sys, logging
 from time import sleep
@@ -13,6 +15,8 @@ class ExperimentServent(CacheServent):
         self.num_tx_message = 0
         # number of received message
         self.num_rx_message = 0
+        # expect query message_id
+        self.query_message_id = None
         
     def on_receive(self, connection_handler, message):
         # increase received message by one
@@ -39,6 +43,21 @@ class ExperimentServent(CacheServent):
         self.num_tx_message += ret
         return ret
 
+    def send_query_to_network(self):
+        """
+        This is core of the experiment
+        """
+        # check if we already host the file
+        # we hardcode the file name (doesn't really matter)
+        criteria = 'ABC' 
+        result = self.search(criteria)
+        cache_result = self.search_queryhit(criteria)
+        if result == [] and cache_result == []:
+            # if it is not in cache or not host it
+            query_message = create_message(GnutellaBodyId.QUERY,
+                                            min_speed = 0,
+                                            search_criteria = criteria)
+            self.flood_ex(query_message)
 
 def usage():
     print "Please run with <bootstrap ip> <bootstrap port> <num of nodes> <num of nodes have the file>"
