@@ -1,0 +1,12 @@
+=======================
+How to run this example
+=======================
+
+First, it needs to run bootstrap node
+
+$>python run_bootstrap.py <0-1>
+
+Second, run servent nodes to build the network in another terminal windows with the same directory
+
+$>python run_servent.py <bootstrap_ip> <bootstrap_port> <num of node>
+

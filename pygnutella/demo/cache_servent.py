@@ -17,7 +17,7 @@ class CacheServent(BasicServent):
         elif message.payload_descriptor == GnutellaBodyId.QUERY:
             forward_key = (message.message_id, GnutellaBodyId.QUERYHIT)
             now = time.time()
-            # check if I already replied to this query            
+            # check if I already replied to this query
             not_seen_or_expired = forward_key not in self.forwarding_table or (self.forwarding_table[forward_key][1] < now)
             # check if this is my query
             not_ignore_or_expired = message.message_id not in self.ignore or (self.ignore[message.message_id] < now)
@@ -49,7 +49,7 @@ class CacheServent(BasicServent):
                                                           result_set = match[3],
                                                           servent_id = match[0])
                         # send back the result
-                        self.send_message(queryhit_message, connection_handler)                    
+                        self.send_message(queryhit_message, connection_handler)
                     # if we found in cache, just don't use default behavior
                     return
         # use default behavior

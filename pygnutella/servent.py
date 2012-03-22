@@ -14,10 +14,10 @@ class FileInfo:
         
     def get_result_set(self):
         return {
-            "file_index": self.file_id,
-            "file_name": self.file_name,
-            "file_size": self.file_size
-        }
+                "file_index": self.file_id,
+                "file_name": self.file_name,
+                "file_size": self.file_size
+                }
 
 class BasicServent:
     """
@@ -30,7 +30,8 @@ class BasicServent:
     FIXED_EXPIRED_INTERVAL = 5
     def __init__(self, port=0, files = [], bootstrap_address = None):
         self._logger = logging.getLogger("%s(%s)" % (self.__class__.__name__, hex(id(self))[:-1]))        
-        # forwarding table: (message_id, payload_type) -> (connection_handler, expiration)
+        # forwarding table: (message_id, payload_type) -> (connection_handler,
+        # expiration)
         self.forwarding_table = {}
         # flood/forward ignore table: message_id -> timestamp
         # this table used to prevent loop in flood
@@ -268,7 +269,7 @@ class BasicServent:
         match = []
         for fileinfo in self.files:
             if criteria == fileinfo.file_name:
-                match.append(fileinfo)                       
+                match.append(fileinfo)
         return match
     
     
