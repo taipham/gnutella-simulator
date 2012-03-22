@@ -134,8 +134,7 @@ class ConnectionHandler(asyncore.dispatcher):
         response = bool(self._data_to_write)
         return response
         
-    def handle_close(self):
-        self.reactor.servent.log('handle_close()')       
+    def handle_close(self):       
         self.close()  
         return
     
