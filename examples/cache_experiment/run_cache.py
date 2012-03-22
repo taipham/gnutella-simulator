@@ -20,6 +20,8 @@ class ExperimentServent(CacheServent):
         CallLater(5./float(randint(1,10))+2., self.send_query_to_network)
         
     def on_receive(self, connection_handler, message):
+        # log to show the network is still working
+        self.log("on_receive() -> %s", message)
         # increase received message by one
         self.num_rx_message += 1
         # create fake download if we sent the query to the network
@@ -79,7 +81,7 @@ def __create_node(servent_cls, bootstrap_address, files = []):
     servent.set_files(files = files)
     
     try:
-        schedule_loop(timeout=1, count=100)
+        schedule_loop(timeout=1, count=80)
     except (KeyboardInterrupt, SystemExit):
         pass
     finally:
