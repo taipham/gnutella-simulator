@@ -25,7 +25,10 @@ class ExperimentServent(CacheServent):
         # increase received message by one
         self.num_rx_message += 1
         # create fake download if we sent the query to the network
-        if self.query_message_id is not None and message.payload_descriptor == GnutellaBodyId.QUERYHIT:
+        if (self.query_message_id is not None and 
+            message.payload_descriptor == GnutellaBodyId.QUERYHIT and 
+            message.message_id == self.query_message_id and
+            self.search('ABC') != []):
             self.add_single_file(FileInfo(1,"ABC",1))            
         CacheServent.on_receive(self, connection_handler, message)
         
