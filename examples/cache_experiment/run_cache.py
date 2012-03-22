@@ -4,9 +4,8 @@ from pygnutella.message import create_message
 from pygnutella.messagebody import GnutellaBodyId
 from numpy.random import randint
 import sys, logging
-from time import sleep
 from multiprocessing import Process
-from pygnutella.scheduler import loop as schedule_loop, close_all
+from pygnutella.scheduler import loop as schedule_loop, close_all, CallLater
 
 class ExperimentServent(CacheServent):
     def __init__(self, bootstrap_address = None):
@@ -17,10 +16,15 @@ class ExperimentServent(CacheServent):
         self.num_rx_message = 0
         # expect query message_id
         self.query_message_id = None
+        # send the query to the network between 2 and 7 seconds
+        CallLater(5./float(randint(1,10))+2., self.send_query_to_network)
         
     def on_receive(self, connection_handler, message):
         # increase received message by one
         self.num_rx_message += 1
+        # create fake download if we sent the query to the network
+        if self.query_message_id is not None and message.payload_descriptor == GnutellaBodyId.QUERYHIT:
+            self.add_single_file(FileInfo(1,"ABC",1))            
         CacheServent.on_receive(self, connection_handler, message)
         
     def send_message(self, message, handler):
@@ -49,6 +53,7 @@ class ExperimentServent(CacheServent):
         """
         # check if we already host the file
         # we hardcode the file name (doesn't really matter)
+        self.log("send_query_to_network()")
         criteria = 'ABC' 
         result = self.search(criteria)
         cache_result = self.search_queryhit(criteria)
@@ -57,7 +62,13 @@ class ExperimentServent(CacheServent):
             query_message = create_message(GnutellaBodyId.QUERY,
                                             min_speed = 0,
                                             search_criteria = criteria)
+            # save the message id
+            self.query_message_id = query_message.message_id
+            # flood the message to everyone
             self.flood_ex(query_message)
+        else:
+            # assume fake download
+            self.add_single_file(FileInfo(1,"ABC",1))
 
 def usage():
     print "Please run with <bootstrap ip> <bootstrap port> <num of nodes> <num of nodes have the file>"
@@ -68,10 +79,11 @@ def __create_node(servent_cls, bootstrap_address, files = []):
     servent.set_files(files = files)
     
     try:
-        schedule_loop()
+        schedule_loop(timeout=1, count=100)
     except (KeyboardInterrupt, SystemExit):
         pass
     finally:
+        print "tx:", servent.num_tx_message, "rx:", servent.num_rx_message
         close_all()  
 
 def main(args):
@@ -113,8 +125,7 @@ def main(args):
                 p = Process(target = __create_node, args=(ExperimentServent, address))
             children.append(p)
             p.start()
-            # sleep 1 seconds before start another node
-            sleep(1)
+
         # wait for other process                    
         for p in children:
             p.join()
