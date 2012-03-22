@@ -9,7 +9,7 @@ def __create_node(servent_cls, bootstrap_address, files = []):
     pass
 
 def main(args):
-    if len(args)<5:
+    if len(args)<4:
         usage();
         return
     ip = args[0]
