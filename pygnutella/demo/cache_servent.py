@@ -4,12 +4,12 @@ from ..messagebody import GnutellaBodyId
 import time
 
 class CacheServent(BasicServent):
-    def __init__(self, files = [], bootstrap_address = None):
+    def __init__(self, bootstrap_address = None):
         # queryhit_cache is a list of tuple (servent_id, ip, port, files: list)
         self.queryhit_cache = []
         self.hits = 0
         self.misses = 0
-        BasicServent.__init__(self, files=files, bootstrap_address=bootstrap_address)
+        BasicServent.__init__(self, bootstrap_address=bootstrap_address)
         
     def on_receive(self, connection_handler, message):
         if message.payload_descriptor == GnutellaBodyId.QUERYHIT:
