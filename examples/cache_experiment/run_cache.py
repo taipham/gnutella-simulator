@@ -84,7 +84,7 @@ def __create_node(servent_cls, bootstrap_address, files = []):
     servent.set_files(files = files)
     
     try:
-        schedule_loop(timeout=1, count=80)
+        schedule_loop(timeout=1, count=60)
     except (KeyboardInterrupt, SystemExit):
         pass
     finally:
