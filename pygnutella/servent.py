@@ -245,6 +245,9 @@ class BasicServent:
 
     files = property(get_files, set_files)
     
+    def add_single_file(self, file_info):
+        # file is an instance of FileInfo
+        self.files.append(file_info)
 
     def check_file(self, file_id):
         """
