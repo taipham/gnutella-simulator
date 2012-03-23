@@ -1,116 +1,116 @@
 ====================
-Prob: 0.2
+density: 0.5
 nodes: 10
 Node have file: 1
 =====================
-tx: 9 rx: 36
-tx: 31 rx: 12
-tx: 32 rx: 13
-tx: 38 rx: 10
-tx: 11 rx: 10
-tx: 1 rx: 9
-tx: 1 rx: 9
-tx: 1 rx: 9
-tx: 1 rx: 9
-tx: 1 rx: 9
+ExperimentServent(0xb7412fcc): result: 1, tx: 22, rx: 18
+ExperimentServent(0xb739fe6c): result: 1, tx: 13, rx: 15
+ExperimentServent(0xb7414dac): result: 1, tx: 16, rx: 17
+ExperimentServent(0xb741410c): result: 1, tx: 17, rx: 13
+ExperimentServent(0xb74142ac): result: 1, tx: 12, rx: 12
+ExperimentServent(0xb7412fac): result: 1, tx: 8, rx: 12
+ExperimentServent(0xb73a252c): result: 1, tx: 8, rx: 9
+ExperimentServent(0xb741448c): result: 1, tx: 6, rx: 6
+ExperimentServent(0xb741406c): result: 1, tx: 4, rx: 4
+ExperimentServent(0xb73a24ac): result: 1, tx: 5, rx: 5
 =====================
-Just tx (no need for rx)
-8
-27
-27
-10
-9
-9
-25
-9
-1
-0
+ExperimentServent(0xb7425fac): result: 1, tx: 65, rx: 29
+ExperimentServent(0xb73b552c): result: 1, tx: 56, rx: 33
+ExperimentServent(0xb7427dac): result: 1, tx: 9, rx: 43
+ExperimentServent(0xb7425fcc): result: 1, tx: 21, rx: 19
+ExperimentServent(0xb742748c): result: 1, tx: 18, rx: 16
+ExperimentServent(0xb73b2e6c): result: 1, tx: 33, rx: 28
+ExperimentServent(0xb73b54ac): result: 1, tx: 11, rx: 23
+ExperimentServent(0xb74272ac): result: 1, tx: 20, rx: 34
+ExperimentServent(0xb742706c): result: 1, tx: 15, rx: 25
+ExperimentServent(0xb742710c): result: 1, tx: 11, rx: 9
 =====================
-9
-28
-13
-11
-18
-9
-1
-1
-1
-1
+ExperimentServent(0xb7444fac): result: 1, tx: 32, rx: 25
+ExperimentServent(0xb73d1e6c): result: 1, tx: 39, rx: 24
+ExperimentServent(0xb7444fcc): result: 1, tx: 25, rx: 23
+ExperimentServent(0xb73d452c): result: 1, tx: 20, rx: 33
+ExperimentServent(0xb744610c): result: 1, tx: 26, rx: 17
+ExperimentServent(0xb744606c): result: 1, tx: 9, rx: 41
+ExperimentServent(0xb73d44ac): result: 1, tx: 27, rx: 32
+ExperimentServent(0xb744648c): result: 1, tx: 11, rx: 16
+ExperimentServent(0xb74462ac): result: 1, tx: 25, rx: 20
+ExperimentServent(0xb7446dac): result: 1, tx: 47, rx: 30
 =====================
-32
-9
-22
-12
-11
-20
-11
-11
-11
-1
+ExperimentServent(0xb740bfac): result: 1, tx: 42, rx: 26
+ExperimentServent(0xb740d2ac): result: 1, tx: 48, rx: 37
+ExperimentServent(0xb740d48c): result: 1, tx: 9, rx: 37
+ExperimentServent(0xb740d10c): result: 1, tx: 38, rx: 23
+ExperimentServent(0xb740bfcc): result: 1, tx: 47, rx: 33
+ExperimentServent(0xb740d06c): result: 1, tx: 23, rx: 19
+ExperimentServent(0xb7398e6c): result: 1, tx: 12, rx: 17
+ExperimentServent(0xb739b52c): result: 1, tx: 14, rx: 25
+ExperimentServent(0xb739b4ac): result: 1, tx: 9, rx: 15
+ExperimentServent(0xb740ddac): result: 1, tx: 18, rx: 28
 =====================
-32
-11
-11
-11
-11
-11
-11
-9
-1
-1
+ExperimentServent(0xb74d206c): result: 1, tx: 42, rx: 29
+ExperimentServent(0xb74d0fac): result: 1, tx: 42, rx: 35
+ExperimentServent(0xb74d248c): result: 1, tx: 25, rx: 35
+ExperimentServent(0xb74d0fcc): result: 1, tx: 9, rx: 25
+ExperimentServent(0xb74d210c): result: 1, tx: 28, rx: 22
+ExperimentServent(0xb74d2dac): result: 1, tx: 16, rx: 25
+ExperimentServent(0xb74d22ac): result: 1, tx: 20, rx: 17
+ExperimentServent(0xb74604ac): result: 1, tx: 13, rx: 21
+ExperimentServent(0xb745de6c): result: 1, tx: 38, rx: 30
+ExperimentServent(0xb746052c): result: 1, tx: 21, rx: 15
 =====================
-31
-32
-22
-9
-10
-11
-20
-10
-29
-1
+ExperimentServent(0xb73e8fac): result: 1, tx: 32, rx: 24
+ExperimentServent(0xb73e8fcc): result: 1, tx: 15, rx: 21
+ExperimentServent(0xb73ea2ac): result: 1, tx: 26, rx: 21
+ExperimentServent(0xb73ea10c): result: 1, tx: 22, rx: 17
+ExperimentServent(0xb73ea48c): result: 1, tx: 28, rx: 23
+ExperimentServent(0xb737852c): result: 1, tx: 18, rx: 30
+ExperimentServent(0xb73eadac): result: 1, tx: 15, rx: 16
+ExperimentServent(0xb73784ac): result: 1, tx: 17, rx: 13
+ExperimentServent(0xb7375e6c): result: 1, tx: 9, rx: 13
+ExperimentServent(0xb73ea06c): result: 1, tx: 6, rx: 10
 =====================
-32
-22
-20
-9
-20
-31
-12
-11
-11
-1
+ExperimentServent(0xb7438dac): result: 1, tx: 49, rx: 42
+ExperimentServent(0xb7436fac): result: 1, tx: 21, rx: 27
+ExperimentServent(0xb73c652c): result: 1, tx: 40, rx: 30
+ExperimentServent(0xb73c64ac): result: 1, tx: 9, rx: 26
+ExperimentServent(0xb743848c): result: 1, tx: 16, rx: 41
+ExperimentServent(0xb73c3e6c): result: 1, tx: 16, rx: 19
+ExperimentServent(0xb743806c): result: 1, tx: 29, rx: 30
+ExperimentServent(0xb74382ac): result: 1, tx: 30, rx: 22
+ExperimentServent(0xb7436fcc): result: 1, tx: 71, rx: 42
+ExperimentServent(0xb743810c): result: 1, tx: 10, rx: 12
 =====================
-40
-19
-9
-10
-9
-10
-1
-1
-1
-1
+ExperimentServent(0xb73f6fcc): result: 1, tx: 65, rx: 39
+ExperimentServent(0xb73f80ac): result: 1, tx: 22, rx: 20
+ExperimentServent(0xb73f82cc): result: 1, tx: 8, rx: 28
+ExperimentServent(0xb73f8dcc): result: 1, tx: 29, rx: 22
+ExperimentServent(0xb73f814c): result: 1, tx: 13, rx: 13
+ExperimentServent(0xb73f812c): result: 1, tx: 15, rx: 21
+ExperimentServent(0xb7382e8c): result: 1, tx: 25, rx: 26
+ExperimentServent(0xb73f84cc): result: 1, tx: 11, rx: 16
+ExperimentServent(0xb738554c): result: 1, tx: 9, rx: 11
+ExperimentServent(0xb73854cc): result: 1, tx: 14, rx: 15
 =====================
-tx: 20 rx: 18
-tx: 32 rx: 17
-tx: 18 rx: 19
-tx: 25 rx: 25
-tx: 17 rx: 23
-tx: 10 rx: 14
-tx: 9 rx: 11
-tx: 25 rx: 29
-tx: 9 rx: 9
-tx: 1 rx: 1
+ExperimentServent(0xb7466fcc): result: 1, tx: 30, rx: 28
+ExperimentServent(0xb746812c): result: 1, tx: 55, rx: 41
+ExperimentServent(0xb73f554c): result: 1, tx: 26, rx: 23
+ExperimentServent(0xb74682cc): result: 1, tx: 23, rx: 31
+ExperimentServent(0xb74680ac): result: 1, tx: 41, rx: 37
+ExperimentServent(0xb74684cc): result: 1, tx: 24, rx: 23
+ExperimentServent(0xb73f2e8c): result: 1, tx: 16, rx: 22
+ExperimentServent(0xb73f54cc): result: 1, tx: 6, rx: 14
+ExperimentServent(0xb746814c): result: 1, tx: 9, rx: 12
+ExperimentServent(0xb7468dcc): result: 1, tx: 4, rx: 3
 =====================
-tx: 23 rx: 15
-tx: 14 rx: 12
-tx: 15 rx: 10
-tx: 9 rx: 8
-tx: 6 rx: 12
-tx: 7 rx: 5
-tx: 1 rx: 6
-tx: 4 rx: 5
-tx: 1 rx: 6
-tx: 1 rx: 2
+ExperimentServent(0xb74480ac): result: 1, tx: 28, rx: 17
+ExperimentServent(0xb744812c): result: 1, tx: 28, rx: 20
+ExperimentServent(0xb7448dcc): result: 1, tx: 8, rx: 30
+ExperimentServent(0xb74482cc): result: 1, tx: 11, rx: 19
+ExperimentServent(0xb744814c): result: 1, tx: 24, rx: 14
+ExperimentServent(0xb73d54cc): result: 1, tx: 15, rx: 22
+ExperimentServent(0xb7446fcc): result: 1, tx: 36, rx: 24
+ExperimentServent(0xb74484cc): result: 1, tx: 14, rx: 14
+ExperimentServent(0xb73d2e8c): result: 1, tx: 24, rx: 32
+ExperimentServent(0xb73d554c): result: 1, tx: 19, rx: 15
+
 
