@@ -1,0 +1,62 @@
+
+====================
+Prob: 0.2
+nodes: 10
+Node have file: 2
+=====================
+tx: 3 rx: 5
+tx: 4 rx: 3
+tx: 6 rx: 5
+tx: 6 rx: 5
+tx: 10 rx: 9
+tx: 5 rx: 8
+tx: 3 rx: 4
+tx: 7 rx: 3
+tx: 1 rx: 2
+tx: 1 rx: 2
+=====================
+tx: 6 rx: 4
+tx: 7 rx: 5
+tx: 4 rx: 7
+tx: 6 rx: 5
+tx: 11 rx: 7
+tx: 12 rx: 8
+tx: 4 rx: 6
+tx: 1 rx: 5
+tx: 1 rx: 5
+tx: 0 rx: 0
+======================
+tx: 5 rx: 5
+tx: 4 rx: 3
+tx: 2 rx: 2
+tx: 3 rx: 3
+tx: 9 rx: 5
+tx: 2 rx: 2
+tx: 1 rx: 1
+tx: 1 rx: 3
+tx: 1 rx: 3
+tx: 1 rx: 2
+======================
+tx: 2 rx: 2
+tx: 2 rx: 2
+tx: 2 rx: 2
+tx: 2 rx: 2
+tx: 2 rx: 2
+tx: 1 rx: 1
+tx: 1 rx: 1
+tx: 0 rx: 0
+tx: 0 rx: 0
+tx: 0 rx: 0
+=======================
+tx: 5 rx: 4
+tx: 10 rx: 7
+tx: 2 rx: 5
+tx: 3 rx: 2
+tx: 2 rx: 2
+tx: 5 rx: 3
+tx: 1 rx: 5
+tx: 1 rx: 1
+tx: 0 rx: 0
+tx: 0 rx: 0
+===========================
+
