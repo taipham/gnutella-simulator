@@ -85,7 +85,7 @@ def __create_node(servent_cls, bootstrap_address, files = []):
     except (KeyboardInterrupt, SystemExit):
         pass
     finally:
-        print servent.num_tx_message
+        print "tx:", servent.num_tx_message, "rx:", servent.num_rx_message
         close_all()  
 
 def main(args):
