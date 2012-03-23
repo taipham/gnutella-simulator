@@ -1,4 +1,6 @@
-
+tx = number of transmitted message
+rx = number of received message
+tx and rx are pairs of every node
 ====================
 Prob: 0.2
 nodes: 10
@@ -298,3 +300,50 @@ tx: 48 rx: 30
 tx: 9 rx: 23
 tx: 6 rx: 11
 tx: 7 rx: 14
+
+====================
+Prob: 0.3
+nodes: 40
+Node have file: 10
+=====================
+Just tx (no need for rx)
+340
+365
+140
+93
+585
+62
+179
+15
+12
+96
+131
+154
+15
+153
+123
+295
+14
+40
+134
+127
+34
+115
+43
+16
+73
+14
+33
+111
+147
+417
+69
+15
+19
+79
+10
+41
+41
+13
+4
+4
