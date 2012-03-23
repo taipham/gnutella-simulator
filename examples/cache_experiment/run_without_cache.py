@@ -25,11 +25,9 @@ class ExperimentServent(QueryServent):
         # increase received message by one
         self.num_rx_message += 1
         # create fake download if we sent the query to the network
-        # create fake download if we sent the query to the network
-        if (self.query_message_id is not None and 
-            message.payload_descriptor == GnutellaBodyId.QUERYHIT and 
+        if (message.payload_descriptor == GnutellaBodyId.QUERYHIT and 
             message.message_id == self.query_message_id and
-            self.search('ABC') != []):
+            self.search('ABC') == []):
             self.add_single_file(FileInfo(1,"ABC",1))          
         QueryServent.on_receive(self, connection_handler, message)
         
@@ -67,8 +65,9 @@ class ExperimentServent(QueryServent):
             query_message = create_message(GnutellaBodyId.QUERY,
                                             min_speed = 0,
                                             search_criteria = criteria)
-            # save the message id
+            # save the message id            
             self.query_message_id = query_message.message_id
+            self.log("message id: %s", self.query_message_id.encode('hex_codec'))
             # flood the message to everyone
             self.flood_ex(query_message)
 
@@ -85,7 +84,7 @@ def __create_node(servent_cls, bootstrap_address, files = []):
     except (KeyboardInterrupt, SystemExit):
         pass
     finally:
-        print "tx:", servent.num_tx_message, "rx:", servent.num_rx_message
+        servent.log("result: %s, tx: %s, rx: %s" % (len(servent.search('ABC')), servent.num_tx_message, servent.num_rx_message))
         close_all()  
 
 def main(args):
