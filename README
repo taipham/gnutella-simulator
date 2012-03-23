@@ -2,6 +2,10 @@
 Installation
 =======================
 
+* First, you need to have python-setuptools, you can get
+it on Ubuntu by using following command
+> sudo apt-get install python-setuptools
+
 * For one-time user or developers for staging environment, 
 we suggests you should use the following commands at 
 root of project directory:
