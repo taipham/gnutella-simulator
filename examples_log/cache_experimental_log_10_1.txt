@@ -1,349 +1,180 @@
-tx = number of transmitted message
-rx = number of received message
-tx and rx are pairs of every node
-====================
-Prob: 0.2
-nodes: 10
-Node have file: 2
-=====================
-tx: 3 rx: 5
-tx: 4 rx: 3
-tx: 6 rx: 5
-tx: 6 rx: 5
-tx: 10 rx: 9
-tx: 5 rx: 8
-tx: 3 rx: 4
-tx: 7 rx: 3
-tx: 1 rx: 2
-tx: 1 rx: 2
-=====================
-tx: 6 rx: 4
-tx: 7 rx: 5
-tx: 4 rx: 7
-tx: 6 rx: 5
-tx: 11 rx: 7
-tx: 12 rx: 8
-tx: 4 rx: 6
-tx: 1 rx: 5
-tx: 1 rx: 5
-tx: 0 rx: 0
-======================
-tx: 5 rx: 5
-tx: 4 rx: 3
-tx: 2 rx: 2
-tx: 3 rx: 3
-tx: 9 rx: 5
-tx: 2 rx: 2
-tx: 1 rx: 1
-tx: 1 rx: 3
-tx: 1 rx: 3
-tx: 1 rx: 2
-======================
-tx: 2 rx: 2
-tx: 2 rx: 2
-tx: 2 rx: 2
-tx: 2 rx: 2
-tx: 2 rx: 2
-tx: 1 rx: 1
-tx: 1 rx: 1
-tx: 0 rx: 0
-tx: 0 rx: 0
-tx: 0 rx: 0
-
 ====================
 Prob: 0.2
 nodes: 10
 Node have file: 1
 =====================
-tx: 13 rx: 7
-tx: 7 rx: 4
-tx: 7 rx: 6
-tx: 3 rx: 4
-tx: 11 rx: 9
-tx: 3 rx: 4
-tx: 7 rx: 7
-tx: 1 rx: 7
-tx: 1 rx: 5
-tx: 1 rx: 1
-Sum
-tx: 54 rx:54
-Average
-tx:5.4 rx 5.4
+ExperimentServent(0x8ce806): result: 1, tx: 15, rx: 10
+ExperimentServent(0x8ce81e): result: 1, tx: 4, rx: 9
+ExperimentServent(0x8ce818): result: 1, tx: 6, rx: 6
+ExperimentServent(0x8d1bf4): result: 1, tx: 13, rx: 10
+ExperimentServent(0x8d1d58): result: 1, tx: 17, rx: 14
+ExperimentServent(0x8ce820): result: 1, tx: 9, rx: 9
+ExperimentServent(0x8ce8e8): result: 1, tx: 5, rx: 10
+ExperimentServent(0x8ce858): result: 1, tx: 13, rx: 7
+ExperimentServent(0x8d1d60): result: 1, tx: 5, rx: 5
+ExperimentServent(0x8ce838): result: 1, tx: 1, rx: 8
 =====================
-tx: 28 rx: 22
-tx: 21 rx: 14
-tx: 29 rx: 25
-tx: 19 rx: 20
-tx: 21 rx: 14
-tx: 9 rx: 11
-tx: 1 rx: 10
-tx: 1 rx: 7
-tx: 1 rx: 7
-tx: 1 rx: 1
-Sum
-tx: 131 rx: 131
-Average
-tx: 13.1 rx: 13.1
+ExperimentServent(0x8f6120): result: 1, tx: 11, rx: 5
+ExperimentServent(0x8f6158): result: 1, tx: 6, rx: 6
+ExperimentServent(0x8f61e8): result: 1, tx: 6, rx: 6
+ExperimentServent(0x8f611e): result: 1, tx: 2, rx: 2
+ExperimentServent(0x8f9660): result: 1, tx: 2, rx: 2
+ExperimentServent(0x8f6138): result: 1, tx: 2, rx: 2
+ExperimentServent(0x8f9658): result: 1, tx: 4, rx: 2
+ExperimentServent(0x8f6118): result: 1, tx: 1, rx: 5
+ExperimentServent(0x8f6106): result: 1, tx: 1, rx: 5
+ExperimentServent(0x8f94f4): result: 1, tx: 1, rx: 1
 =====================
-tx: 12 rx: 14
-tx: 28 rx: 21
-tx: 25 rx: 15
-tx: 4 rx: 6
-tx: 13 rx: 13
-tx: 14 rx: 13
-tx: 5 rx: 7
-tx: 22 rx: 20
-tx: 1 rx: 8
-tx: 1 rx: 8
-Sum
-tx: 125 rx: 125
-Average
-tx: 12.5 rx: 12.5
+ExperimentServent(0x93ff58): result: 1, tx: 10, rx: 9
+ExperimentServent(0x93ff60): result: 1, tx: 8, rx: 6
+ExperimentServent(0x93ca20): result: 1, tx: 4, rx: 4
+ExperimentServent(0x93ca58): result: 1, tx: 8, rx: 6
+ExperimentServent(0x93ca1e): result: 1, tx: 4, rx: 4
+ExperimentServent(0x93ca18): result: 1, tx: 4, rx: 2
+ExperimentServent(0x93ca06): result: 1, tx: 2, rx: 2
+ExperimentServent(0x93fdf4): result: 1, tx: 1, rx: 6
+ExperimentServent(0x93cae8): result: 1, tx: 1, rx: 3
+ExperimentServent(0x93ca38): result: 1, tx: 1, rx: 1
 =====================
-
-
-====================
-Prob: 0.2
-nodes: 10
-Node have file: 3
+ExperimentServent(0x99bc20): result: 1, tx: 10, rx: 7
+ExperimentServent(0x99eff4): result: 1, tx: 10, rx: 5
+ExperimentServent(0x99bc58): result: 1, tx: 3, rx: 2
+ExperimentServent(0x99f158): result: 1, tx: 5, rx: 3
+ExperimentServent(0x99bc38): result: 1, tx: 3, rx: 4
+ExperimentServent(0x99bc1e): result: 1, tx: 3, rx: 4
+ExperimentServent(0x99bc06): result: 1, tx: 2, rx: 4
+ExperimentServent(0x99bce8): result: 1, tx: 7, rx: 10
+ExperimentServent(0x99bc18): result: 1, tx: 1, rx: 3
+ExperimentServent(0x99f160): result: 1, tx: 1, rx: 3
 =====================
-tx: 3 rx: 3
-tx: 10 rx: 7
-tx: 5 rx: 5
-tx: 9 rx: 7
-tx: 7 rx: 6
-tx: 6 rx: 5
-tx: 3 rx: 4
-tx: 1 rx: 4
-tx: 1 rx: 4
-tx: 2 rx: 2
+ExperimentServent(0x9d1a18): result: 1, tx: 3, rx: 6
+ExperimentServent(0x9d1a20): result: 1, tx: 7, rx: 3
+ExperimentServent(0x9d1ae8): result: 1, tx: 6, rx: 4
+ExperimentServent(0x9d1a38): result: 1, tx: 7, rx: 5
+ExperimentServent(0x9d1a1e): result: 1, tx: 4, rx: 2
+ExperimentServent(0x9d4df4): result: 1, tx: 4, rx: 4
+ExperimentServent(0x9d4f60): result: 1, tx: 2, rx: 2
+ExperimentServent(0x9d4f58): result: 1, tx: 1, rx: 4
+ExperimentServent(0x9d1a58): result: 1, tx: 1, rx: 3
+ExperimentServent(0x9d1a06): result: 1, tx: 1, rx: 3
 =====================
-tx: 14 rx: 9
-tx: 6 rx: 11
-tx: 12 rx: 11
-tx: 7 rx: 6
-tx: 10 rx: 14
-tx: 7 rx: 10
-tx: 13 rx: 10
-tx: 14 rx: 12
-tx: 4 rx: 4
-tx: 2 rx: 2
+ExperimentServent(0x88361e): result: 1, tx: 9, rx: 5
+ExperimentServent(0x883658): result: 1, tx: 8, rx: 5
+ExperimentServent(0x883620): result: 1, tx: 10, rx: 4
+ExperimentServent(0x883638): result: 1, tx: 2, rx: 2
+ExperimentServent(0x883606): result: 1, tx: 1, rx: 3
+ExperimentServent(0x886b60): result: 1, tx: 1, rx: 3
+ExperimentServent(0x8869f4): result: 1, tx: 1, rx: 4
+ExperimentServent(0x883618): result: 1, tx: 1, rx: 5
+ExperimentServent(0x886b58): result: 1, tx: 1, rx: 3
+ExperimentServent(0x8836e8): result: 1, tx: 1, rx: 1
 =====================
-tx: 21 rx: 20
-tx: 28 rx: 20
-tx: 12 rx: 10
-tx: 34 rx: 24
-tx: 6 rx: 8
-tx: 5 rx: 6
-tx: 5 rx: 7
-tx: 1 rx: 10
-tx: 1 rx: 8
-tx: 2 rx: 2
+ExperimentServent(0x8e01e8): result: 1, tx: 5, rx: 4
+ExperimentServent(0x8e0158): result: 1, tx: 5, rx: 7
+ExperimentServent(0x8e0120): result: 1, tx: 4, rx: 4
+ExperimentServent(0x8e34f4): result: 1, tx: 7, rx: 7
+ExperimentServent(0x8e0106): result: 1, tx: 3, rx: 6
+ExperimentServent(0x8e3660): result: 1, tx: 7, rx: 5
+ExperimentServent(0x8e0118): result: 1, tx: 7, rx: 6
+ExperimentServent(0x8e011e): result: 1, tx: 5, rx: 6
+ExperimentServent(0x8e3658): result: 1, tx: 4, rx: 2
+ExperimentServent(0x8e0138): result: 1, tx: 1, rx: 1
 =====================
-
-
-====================
-Prob: 0.4
-nodes: 20
-Node have file: 1
+ExperimentServent(0x8b8e38): result: 1, tx: 18, rx: 11
+ExperimentServent(0x8b8e58): result: 1, tx: 7, rx: 7
+ExperimentServent(0x8b8e1e): result: 1, tx: 6, rx: 6
+ExperimentServent(0x8b8e20): result: 1, tx: 4, rx: 3
+ExperimentServent(0x8bc360): result: 1, tx: 4, rx: 4
+ExperimentServent(0x8b8ee8): result: 1, tx: 4, rx: 6
+ExperimentServent(0x8b8e06): result: 1, tx: 3, rx: 6
+ExperimentServent(0x8bc358): result: 1, tx: 2, rx: 3
+ExperimentServent(0x8bc1f4): result: 1, tx: 5, rx: 4
+ExperimentServent(0x8b8e18): result: 1, tx: 1, rx: 4
 =====================
-tx: 236 rx: 151
-tx: 104 rx: 142
-tx: 63 rx: 84
-tx: 76 rx: 114
-tx: 48 rx: 71
-tx: 52 rx: 50
-tx: 80 rx: 81
-tx: 50 rx: 77
-tx: 47 rx: 58
-tx: 143 rx: 133
-tx: 158 rx: 119
-tx: 210 rx: 157
-tx: 66 rx: 82
-tx: 54 rx: 80
-tx: 49 rx: 59
-tx: 68 rx: 71
-tx: 89 rx: 101
-tx: 158 rx: 101
-tx: 18 rx: 48
-tx: 101 rx: 91
+ExperimentServent(0x9fa320): result: 1, tx: 7, rx: 7
+ExperimentServent(0x9fd6f4): result: 1, tx: 8, rx: 6
+ExperimentServent(0x9fa358): result: 1, tx: 15, rx: 10
+ExperimentServent(0x9fa318): result: 1, tx: 7, rx: 4
+ExperimentServent(0x9fa306): result: 1, tx: 8, rx: 8
+ExperimentServent(0x9fa31e): result: 1, tx: 11, rx: 10
+ExperimentServent(0x9fa338): result: 1, tx: 4, rx: 9
+ExperimentServent(0x9fd860): result: 1, tx: 2, rx: 2
+ExperimentServent(0x9fa3e8): result: 1, tx: 1, rx: 7
+ExperimentServent(0x9fd858): result: 1, tx: 1, rx: 1
 =====================
-tx: 144 rx: 115
-tx: 72 rx: 78
-tx: 61 rx: 101
-tx: 67 rx: 75
-tx: 58 rx: 61
-tx: 103 rx: 104
-tx: 98 rx: 89
-tx: 53 rx: 62
-tx: 98 rx: 66
-tx: 56 rx: 84
-tx: 173 rx: 130
-tx: 43 rx: 52
-tx: 177 rx: 119
-tx: 122 rx: 121
-tx: 23 rx: 35
-tx: 131 rx: 110
-tx: 81 rx: 75
-tx: 51 rx: 61
-tx: 17 rx: 97
-tx: 127 rx: 120
+ExperimentServent(0x8decf4): result: 1, tx: 11, rx: 5
+ExperimentServent(0x8db9e8): result: 1, tx: 7, rx: 5
+ExperimentServent(0x8db920): result: 1, tx: 4, rx: 3
+ExperimentServent(0x8db958): result: 1, tx: 8, rx: 6
+ExperimentServent(0x8db906): result: 1, tx: 4, rx: 5
+ExperimentServent(0x8db938): result: 1, tx: 2, rx: 5
+ExperimentServent(0x8dee58): result: 1, tx: 3, rx: 5
+ExperimentServent(0x8db918): result: 1, tx: 4, rx: 2
+ExperimentServent(0x8db91e): result: 1, tx: 4, rx: 5
+ExperimentServent(0x8dee60): result: 1, tx: 1, rx: 7
 =====================
-tx: 167 rx: 116
-tx: 123 rx: 97
-tx: 151 rx: 126
-tx: 91 rx: 93
-tx: 59 rx: 68
-tx: 114 rx: 101
-tx: 81 rx: 74
-tx: 160 rx: 141
-tx: 40 rx: 71
-tx: 159 rx: 129
-tx: 32 rx: 32
-tx: 65 rx: 62
-tx: 49 rx: 62
-tx: 93 rx: 112
-tx: 27 rx: 67
-tx: 131 rx: 132
-tx: 73 rx: 77
-tx: 18 rx: 53
-tx: 25 rx: 38
-tx: 58 rx: 65
+ExperimentServent(0x99e806): result: 1, tx: 5, rx: 5
+ExperimentServent(0x99e8e8): result: 1, tx: 6, rx: 6
+ExperimentServent(0x99e820): result: 1, tx: 4, rx: 4
+ExperimentServent(0x9a1bf4): result: 1, tx: 5, rx: 4
+ExperimentServent(0x9a1d60): result: 1, tx: 3, rx: 5
+ExperimentServent(0x99e838): result: 1, tx: 3, rx: 4
+ExperimentServent(0x9a1d58): result: 1, tx: 3, rx: 3
+ExperimentServent(0x99e81e): result: 1, tx: 3, rx: 3
+ExperimentServent(0x99e818): result: 1, tx: 4, rx: 2
+ExperimentServent(0x99e858): result: 1, tx: 1, rx: 1
 =====================
-tx: 58 rx: 61
-tx: 49 rx: 62
-tx: 146 rx: 100
-tx: 86 rx: 85
-tx: 107 rx: 110
-tx: 89 rx: 89
-tx: 66 rx: 76
-tx: 96 rx: 105
-tx: 143 rx: 120
-tx: 35 rx: 62
-tx: 18 rx: 78
-tx: 38 rx: 40
-tx: 64 rx: 79
-tx: 33 rx: 38
-tx: 101 rx: 88
-tx: 131 rx: 84
-tx: 57 rx: 78
-tx: 136 rx: 96
-tx: 38 rx: 36
-tx: 23 rx: 27
-
-
-
-====================
-Prob: 0.4
-nodes: 20
-Node have file: 5
+ExperimentServent(0x97a720): result: 1, tx: 7, rx: 4
+ExperimentServent(0x97daf4): result: 1, tx: 11, rx: 8
+ExperimentServent(0x97dc58): result: 1, tx: 7, rx: 6
+ExperimentServent(0x97a738): result: 1, tx: 5, rx: 4
+ExperimentServent(0x97a718): result: 1, tx: 3, rx: 4
+ExperimentServent(0x97a71e): result: 1, tx: 4, rx: 3
+ExperimentServent(0x97a706): result: 1, tx: 2, rx: 2
+ExperimentServent(0x97a7e8): result: 1, tx: 1, rx: 2
+ExperimentServent(0x97dc60): result: 1, tx: 1, rx: 7
+ExperimentServent(0x97a758): result: 1, tx: 1, rx: 2
 =====================
-tx: 6 rx: 19
-tx: 58 rx: 45
-tx: 18 rx: 26
-tx: 8 rx: 28
-tx: 50 rx: 31
-tx: 62 rx: 66
-tx: 4 rx: 11
-tx: 89 rx: 81
-tx: 26 rx: 18
-tx: 8 rx: 30
-tx: 23 rx: 31
-tx: 23 rx: 11
-tx: 24 rx: 19
-tx: 77 rx: 79
-tx: 44 rx: 66
-tx: 50 rx: 42
-tx: 6 rx: 10
-tx: 43 rx: 23
-tx: 28 rx: 21
-tx: 23 rx: 13
+ExperimentServent(0x99a006): result: 1, tx: 13, rx: 6
+ExperimentServent(0x99a058): result: 1, tx: 5, rx: 3
+ExperimentServent(0x99a020): result: 1, tx: 4, rx: 3
+ExperimentServent(0x99d3f4): result: 1, tx: 1, rx: 3
+ExperimentServent(0x99a038): result: 1, tx: 1, rx: 3
+ExperimentServent(0x99d560): result: 1, tx: 1, rx: 4
+ExperimentServent(0x99a0e8): result: 1, tx: 1, rx: 1
+ExperimentServent(0x99d558): result: 1, tx: 1, rx: 3
+ExperimentServent(0x99a01e): result: 1, tx: 1, rx: 1
+ExperimentServent(0x99a018): result: 1, tx: 1, rx: 2
 =====================
-tx: 11 rx: 40
-tx: 11 rx: 33
-tx: 30 rx: 33
-tx: 44 rx: 27
-tx: 39 rx: 59
-tx: 104 rx: 88
-tx: 11 rx: 46
-tx: 65 rx: 53
-tx: 48 rx: 37
-tx: 60 rx: 46
-tx: 57 rx: 29
-tx: 50 rx: 37
-tx: 132 rx: 123
-tx: 206 rx: 163
-tx: 46 rx: 79
-tx: 37 rx: 29
-tx: 43 rx: 40
-tx: 10 rx: 37
-tx: 7 rx: 18
-tx: 21 rx: 15
+ExperimentServent(0x9e7318): result: 1, tx: 11, rx: 6
+ExperimentServent(0x9e7306): result: 1, tx: 13, rx: 8
+ExperimentServent(0x9e7358): result: 1, tx: 5, rx: 5
+ExperimentServent(0x9ea858): result: 1, tx: 4, rx: 5
+ExperimentServent(0x9ea860): result: 1, tx: 4, rx: 7
+ExperimentServent(0x9ea6f4): result: 1, tx: 2, rx: 2
+ExperimentServent(0x9e7320): result: 1, tx: 1, rx: 3
+ExperimentServent(0x9e73e8): result: 1, tx: 2, rx: 2
+ExperimentServent(0x9e7338): result: 1, tx: 1, rx: 5
+ExperimentServent(0x9e731e): result: 1, tx: 1, rx: 1
 =====================
-tx: 29 rx: 19
-tx: 9 rx: 39
-tx: 50 rx: 28
-tx: 30 rx: 22
-tx: 45 rx: 26
-tx: 66 rx: 60
-tx: 58 rx: 60
-tx: 29 rx: 24
-tx: 22 rx: 42
-tx: 79 rx: 71
-tx: 47 rx: 54
-tx: 8 rx: 31
-tx: 22 rx: 13
-tx: 116 rx: 104
-tx: 26 rx: 19
-tx: 8 rx: 24
-tx: 48 rx: 30
-tx: 9 rx: 23
-tx: 6 rx: 11
-tx: 7 rx: 14
-
-====================
-Prob: 0.3
-nodes: 40
-Node have file: 10
+ExperimentServent(0x9bac58): result: 1, tx: 12, rx: 7
+ExperimentServent(0x9b7706): result: 1, tx: 3, rx: 6
+ExperimentServent(0x9b77e8): result: 1, tx: 18, rx: 8
+ExperimentServent(0x9baaf4): result: 1, tx: 8, rx: 5
+ExperimentServent(0x9bac60): result: 1, tx: 7, rx: 10
+ExperimentServent(0x9b7758): result: 1, tx: 4, rx: 2
+ExperimentServent(0x9b7720): result: 1, tx: 1, rx: 4
+ExperimentServent(0x9b7738): result: 1, tx: 1, rx: 4
+ExperimentServent(0x9b7718): result: 1, tx: 1, rx: 5
+ExperimentServent(0x9b771e): result: 1, tx: 1, rx: 5
 =====================
-Just tx (no need for rx)
-340
-365
-140
-93
-585
-62
-179
-15
-12
-96
-131
-154
-15
-153
-123
-295
-14
-40
-134
-127
-34
-115
-43
-16
-73
-14
-33
-111
-147
-417
-69
-15
-19
-79
-10
-41
-41
-13
-4
-4
+ExperimentServent(0x94f458): result: 1, tx: 5, rx: 4
+ExperimentServent(0x94f420): result: 1, tx: 4, rx: 3
+ExperimentServent(0x94f41e): result: 1, tx: 4, rx: 3
+ExperimentServent(0x94f418): result: 1, tx: 5, rx: 5
+ExperimentServent(0x952960): result: 1, tx: 7, rx: 6
+ExperimentServent(0x94f406): result: 1, tx: 3, rx: 6
+ExperimentServent(0x9527f4): result: 1, tx: 4, rx: 5
+ExperimentServent(0x952958): result: 1, tx: 6, rx: 5
+ExperimentServent(0x94f4e8): result: 1, tx: 3, rx: 4
+ExperimentServent(0x94f438): result: 1, tx: 1, rx: 1
