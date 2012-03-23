@@ -37,5 +37,15 @@ tx: 1 rx: 3
 tx: 1 rx: 3
 tx: 1 rx: 2
 ======================
+tx: 2 rx: 2
+tx: 2 rx: 2
+tx: 2 rx: 2
+tx: 2 rx: 2
+tx: 2 rx: 2
+tx: 1 rx: 1
+tx: 1 rx: 1
+tx: 0 rx: 0
+tx: 0 rx: 0
+tx: 0 rx: 0
 
 
