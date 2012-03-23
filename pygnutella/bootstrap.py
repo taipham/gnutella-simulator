@@ -95,15 +95,14 @@ class BootstrapInHandler(asynchat.async_chat):
                 address = ip, port
                 self.exclude.append(address)
                 self._bootstrap.add_node(address)
+                potential_partners = self._bootstrap.get_node(self.exclude)
+                for partner in potential_partners:
+                    self._bootstrap.logger.info("sent %s %s" % partner)
+                    self.push('PEER %s %s\n' % partner)            
+                self.push("%s\n" % BootstrapMethod.CLOSE)
+                self.close_when_done()                
             else:
                 self._bootstrap.logger.info("POST don't have exact two parameters.")
-        elif method == BootstrapMethod.GET:
-            potential_partners = self._bootstrap.get_node(self.exclude)
-            for partner in potential_partners:
-                self._bootstrap.logger.info("sent %s %s" % partner)
-                self.push('PEER %s %s\n' % partner)            
-            self.push("%s\n" % BootstrapMethod.CLOSE)
-            self.close_when_done()
         elif method == BootstrapMethod.CLOSE:
             self.handle_close()
         else:
@@ -125,7 +124,6 @@ class BootstrapOutHandler(asynchat.async_chat):
     def handle_connect(self):
         message_params = (BootstrapMethod.POST,) + self._node_address
         self.push('%s %s %s\n' % message_params)
-        self.push("%s\n" % BootstrapMethod.GET)
     
     def collect_incoming_data(self, data):
         self._received_data += data

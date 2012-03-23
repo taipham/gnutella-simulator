@@ -1,0 +1,97 @@
+============================
+Prob: 0.3
+nodes: 30
+Node have files: 2
+============================
+tx: 51 rx: 40
+tx: 39 rx: 26
+tx: 59 rx: 45
+tx: 40 rx: 52
+tx: 59 rx: 42
+tx: 20 rx: 25
+tx: 47 rx: 32
+tx: 23 rx: 31
+tx: 5 rx: 33
+tx: 32 rx: 35
+tx: 30 rx: 22
+tx: 27 rx: 27
+tx: 20 rx: 22
+tx: 11 rx: 18
+tx: 37 rx: 41
+tx: 19 rx: 17
+tx: 77 rx: 55
+tx: 26 rx: 53
+tx: 5 rx: 29
+tx: 62 rx: 43
+tx: 24 rx: 29
+tx: 26 rx: 17
+tx: 14 rx: 15
+tx: 21 rx: 18
+tx: 26 rx: 24
+tx: 26 rx: 27
+tx: 11 rx: 9
+tx: 21 rx: 32
+tx: 30 rx: 22
+tx: 13 rx: 20
+============================
+ExperimentServent(0x1076787a): result: 1, tx: 23, rx: 43
+ExperimentServent(0x10767c1b): result: 1, tx: 37, rx: 40
+ExperimentServent(0x10767c5f): result: 1, tx: 50, rx: 55
+ExperimentServent(0x10767c24): result: 1, tx: 27, rx: 27
+ExperimentServent(0x10767c36): result: 1, tx: 36, rx: 28
+ExperimentServent(0x10767c12): result: 1, tx: 13, rx: 25
+ExperimentServent(0x10767c71): result: 1, tx: 23, rx: 24
+ExperimentServent(0x10767c0e): result: 1, tx: 35, rx: 27
+ExperimentServent(0x107678cf): result: 1, tx: 5, rx: 31
+ExperimentServent(0x10767c20): result: 1, tx: 40, rx: 35
+ExperimentServent(0x10767c5a): result: 1, tx: 51, rx: 57
+ExperimentServent(0x10767c09): result: 1, tx: 24, rx: 25
+ExperimentServent(0x10767871): result: 1, tx: 6, rx: 27
+ExperimentServent(0x10767c4d): result: 1, tx: 18, rx: 22
+ExperimentServent(0x10767c56): result: 1, tx: 14, rx: 28
+ExperimentServent(0x10767c29): result: 1, tx: 13, rx: 21
+ExperimentServent(0x10767c51): result: 1, tx: 20, rx: 15
+ExperimentServent(0x10767c8c): result: 1, tx: 22, rx: 22
+ExperimentServent(0x10767c44): result: 1, tx: 35, rx: 27
+ExperimentServent(0x10767c6c): result: 1, tx: 43, rx: 33
+ExperimentServent(0x10767c68): result: 1, tx: 48, rx: 44
+ExperimentServent(0x10767c2d): result: 1, tx: 56, rx: 37
+ExperimentServent(0x10767c32): result: 1, tx: 40, rx: 29
+ExperimentServent(0x10767c63): result: 1, tx: 37, rx: 22
+ExperimentServent(0x10767c48): result: 1, tx: 41, rx: 27
+ExperimentServent(0x10767c3f): result: 1, tx: 37, rx: 21
+ExperimentServent(0x10767c17): result: 1, tx: 25, rx: 28
+ExperimentServent(0x10767c83): result: 1, tx: 26, rx: 24
+ExperimentServent(0x10767c7a): result: 1, tx: 11, rx: 16
+ExperimentServent(0x10767c3b): result: 1, tx: 15, rx: 11
+============================
+ExperimentServent(0x1011f60e): result: 1, tx: 57, rx: 62
+ExperimentServent(0x1011f271): result: 1, tx: 46, rx: 42
+ExperimentServent(0x1011f27a): result: 1, tx: 24, rx: 24
+ExperimentServent(0x1011f656): result: 1, tx: 8, rx: 42
+ExperimentServent(0x1011f644): result: 1, tx: 51, rx: 46
+ExperimentServent(0x1011f65a): result: 1, tx: 6, rx: 36
+ExperimentServent(0x1011f67a): result: 1, tx: 20, rx: 24
+ExperimentServent(0x1011f671): result: 1, tx: 33, rx: 45
+ExperimentServent(0x1011f612): result: 1, tx: 78, rx: 48
+ExperimentServent(0x1011f63f): result: 1, tx: 55, rx: 40
+ExperimentServent(0x1011f2cf): result: 1, tx: 50, rx: 31
+ExperimentServent(0x1011f663): result: 1, tx: 43, rx: 55
+ExperimentServent(0x1011f617): result: 1, tx: 63, rx: 42
+ExperimentServent(0x1011f620): result: 1, tx: 84, rx: 58
+ExperimentServent(0x1011f668): result: 1, tx: 58, rx: 36
+ExperimentServent(0x1011f648): result: 1, tx: 60, rx: 40
+ExperimentServent(0x1011f63b): result: 1, tx: 31, rx: 52
+ExperimentServent(0x1011f632): result: 1, tx: 48, rx: 40
+ExperimentServent(0x1011f683): result: 1, tx: 37, rx: 73
+ExperimentServent(0x1011f65f): result: 1, tx: 47, rx: 41
+ExperimentServent(0x1011f629): result: 1, tx: 26, rx: 61
+ExperimentServent(0x1011f66c): result: 1, tx: 22, rx: 21
+ExperimentServent(0x1011f609): result: 1, tx: 36, rx: 27
+ExperimentServent(0x1011f61b): result: 1, tx: 54, rx: 42
+ExperimentServent(0x1011f62d): result: 1, tx: 42, rx: 33
+ExperimentServent(0x1011f624): result: 1, tx: 70, rx: 45
+ExperimentServent(0x1011f68c): result: 1, tx: 25, rx: 49
+ExperimentServent(0x1011f636): result: 1, tx: 25, rx: 34
+ExperimentServent(0x1011f651): result: 1, tx: 25, rx: 29
+ExperimentServent(0x1011f64d): result: 1, tx: 21, rx: 27
