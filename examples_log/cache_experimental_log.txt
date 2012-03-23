@@ -38,4 +38,253 @@ tx: 1 rx: 3
 tx: 1 rx: 2
 ======================
 
+====================
+Prob: 0.2
+nodes: 10
+Node have file: 1
+=====================
+tx: 13 rx: 7
+tx: 7 rx: 4
+tx: 7 rx: 6
+tx: 3 rx: 4
+tx: 11 rx: 9
+tx: 3 rx: 4
+tx: 7 rx: 7
+tx: 1 rx: 7
+tx: 1 rx: 5
+tx: 1 rx: 1
+Sum
+tx: 54 rx:54
+Average
+tx:5.4 rx 5.4
+=====================
+tx: 28 rx: 22
+tx: 21 rx: 14
+tx: 29 rx: 25
+tx: 19 rx: 20
+tx: 21 rx: 14
+tx: 9 rx: 11
+tx: 1 rx: 10
+tx: 1 rx: 7
+tx: 1 rx: 7
+tx: 1 rx: 1
+Sum
+tx: 131 rx: 131
+Average
+tx: 13.1 rx: 13.1
+=====================
+tx: 12 rx: 14
+tx: 28 rx: 21
+tx: 25 rx: 15
+tx: 4 rx: 6
+tx: 13 rx: 13
+tx: 14 rx: 13
+tx: 5 rx: 7
+tx: 22 rx: 20
+tx: 1 rx: 8
+tx: 1 rx: 8
+Sum
+tx: 125 rx: 125
+Average
+tx: 12.5 rx: 12.5
+=====================
 
+
+====================
+Prob: 0.2
+nodes: 10
+Node have file: 3
+=====================
+tx: 3 rx: 3
+tx: 10 rx: 7
+tx: 5 rx: 5
+tx: 9 rx: 7
+tx: 7 rx: 6
+tx: 6 rx: 5
+tx: 3 rx: 4
+tx: 1 rx: 4
+tx: 1 rx: 4
+tx: 2 rx: 2
+=====================
+tx: 14 rx: 9
+tx: 6 rx: 11
+tx: 12 rx: 11
+tx: 7 rx: 6
+tx: 10 rx: 14
+tx: 7 rx: 10
+tx: 13 rx: 10
+tx: 14 rx: 12
+tx: 4 rx: 4
+tx: 2 rx: 2
+=====================
+tx: 21 rx: 20
+tx: 28 rx: 20
+tx: 12 rx: 10
+tx: 34 rx: 24
+tx: 6 rx: 8
+tx: 5 rx: 6
+tx: 5 rx: 7
+tx: 1 rx: 10
+tx: 1 rx: 8
+tx: 2 rx: 2
+=====================
+
+
+====================
+Prob: 0.4
+nodes: 20
+Node have file: 1
+=====================
+tx: 236 rx: 151
+tx: 104 rx: 142
+tx: 63 rx: 84
+tx: 76 rx: 114
+tx: 48 rx: 71
+tx: 52 rx: 50
+tx: 80 rx: 81
+tx: 50 rx: 77
+tx: 47 rx: 58
+tx: 143 rx: 133
+tx: 158 rx: 119
+tx: 210 rx: 157
+tx: 66 rx: 82
+tx: 54 rx: 80
+tx: 49 rx: 59
+tx: 68 rx: 71
+tx: 89 rx: 101
+tx: 158 rx: 101
+tx: 18 rx: 48
+tx: 101 rx: 91
+=====================
+tx: 144 rx: 115
+tx: 72 rx: 78
+tx: 61 rx: 101
+tx: 67 rx: 75
+tx: 58 rx: 61
+tx: 103 rx: 104
+tx: 98 rx: 89
+tx: 53 rx: 62
+tx: 98 rx: 66
+tx: 56 rx: 84
+tx: 173 rx: 130
+tx: 43 rx: 52
+tx: 177 rx: 119
+tx: 122 rx: 121
+tx: 23 rx: 35
+tx: 131 rx: 110
+tx: 81 rx: 75
+tx: 51 rx: 61
+tx: 17 rx: 97
+tx: 127 rx: 120
+=====================
+tx: 167 rx: 116
+tx: 123 rx: 97
+tx: 151 rx: 126
+tx: 91 rx: 93
+tx: 59 rx: 68
+tx: 114 rx: 101
+tx: 81 rx: 74
+tx: 160 rx: 141
+tx: 40 rx: 71
+tx: 159 rx: 129
+tx: 32 rx: 32
+tx: 65 rx: 62
+tx: 49 rx: 62
+tx: 93 rx: 112
+tx: 27 rx: 67
+tx: 131 rx: 132
+tx: 73 rx: 77
+tx: 18 rx: 53
+tx: 25 rx: 38
+tx: 58 rx: 65
+=====================
+tx: 58 rx: 61
+tx: 49 rx: 62
+tx: 146 rx: 100
+tx: 86 rx: 85
+tx: 107 rx: 110
+tx: 89 rx: 89
+tx: 66 rx: 76
+tx: 96 rx: 105
+tx: 143 rx: 120
+tx: 35 rx: 62
+tx: 18 rx: 78
+tx: 38 rx: 40
+tx: 64 rx: 79
+tx: 33 rx: 38
+tx: 101 rx: 88
+tx: 131 rx: 84
+tx: 57 rx: 78
+tx: 136 rx: 96
+tx: 38 rx: 36
+tx: 23 rx: 27
+
+
+
+====================
+Prob: 0.4
+nodes: 20
+Node have file: 5
+=====================
+tx: 6 rx: 19
+tx: 58 rx: 45
+tx: 18 rx: 26
+tx: 8 rx: 28
+tx: 50 rx: 31
+tx: 62 rx: 66
+tx: 4 rx: 11
+tx: 89 rx: 81
+tx: 26 rx: 18
+tx: 8 rx: 30
+tx: 23 rx: 31
+tx: 23 rx: 11
+tx: 24 rx: 19
+tx: 77 rx: 79
+tx: 44 rx: 66
+tx: 50 rx: 42
+tx: 6 rx: 10
+tx: 43 rx: 23
+tx: 28 rx: 21
+tx: 23 rx: 13
+=====================
+tx: 11 rx: 40
+tx: 11 rx: 33
+tx: 30 rx: 33
+tx: 44 rx: 27
+tx: 39 rx: 59
+tx: 104 rx: 88
+tx: 11 rx: 46
+tx: 65 rx: 53
+tx: 48 rx: 37
+tx: 60 rx: 46
+tx: 57 rx: 29
+tx: 50 rx: 37
+tx: 132 rx: 123
+tx: 206 rx: 163
+tx: 46 rx: 79
+tx: 37 rx: 29
+tx: 43 rx: 40
+tx: 10 rx: 37
+tx: 7 rx: 18
+tx: 21 rx: 15
+=====================
+tx: 29 rx: 19
+tx: 9 rx: 39
+tx: 50 rx: 28
+tx: 30 rx: 22
+tx: 45 rx: 26
+tx: 66 rx: 60
+tx: 58 rx: 60
+tx: 29 rx: 24
+tx: 22 rx: 42
+tx: 79 rx: 71
+tx: 47 rx: 54
+tx: 8 rx: 31
+tx: 22 rx: 13
+tx: 116 rx: 104
+tx: 26 rx: 19
+tx: 8 rx: 24
+tx: 48 rx: 30
+tx: 9 rx: 23
+tx: 6 rx: 11
+tx: 7 rx: 14
