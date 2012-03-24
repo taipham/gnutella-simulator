@@ -92,7 +92,7 @@ OR
 
 2. Run the test:
 Go to the main directory, which is under g-simulator/
-> nosetests
+> nosetests tests/*
 
 3. Naming convention for test files: please make sure all the file names are
 [class_name]_tests.py, or the test will fail.
